@@ -1,0 +1,60 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #323232;
+  padding: 50px;
+  font-family: "Helvetica Neue";
+}
+
+#container {
+  height: 600px;
+  width: 600px;
+
+  margin: 0 auto;
+  color: white;
+}
+
+
+#top-section {
+    background-color: #0090D2;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+#top-section h2 {
+  padding: 20px;
+}
+
+form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+}
+
+input,
+textarea {
+    width: 95%;
+    height: 5vh;
+}
+
+#bottom-section {
+  background-color: lightblue;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+#btn {
+    background-color: #0090D2;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+}
